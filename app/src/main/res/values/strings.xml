@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="logo">Weather in your city</string>
+    <string name="hintuserfield">Enter your city</string>
+    <string name="empty_input">Please, enter your city</string>
+    <string name="find_out">Find out</string>
+</resources>

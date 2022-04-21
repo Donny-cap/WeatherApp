@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Logo"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_below="@+id/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/textColorHint"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/Logo"
+        android:fontFamily="sans-serif-smallcaps"
+
+        android:backgroundTint="@color/teal_200"
+        android:inputType="textPersonName"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="100sp"
+        android:textColorHint="#ccc"
+        android:hint="@string/hintuserfield"
+        tools:targetApi="lollipop"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_field"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/find_out"
+        android:textColor="@color/black"
+        tools:targetApi="lollipop" />
+
+</RelativeLayout>
